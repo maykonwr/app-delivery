@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-    <b>Esse é um dos projetos desenvolvidos em aula no evento NLW expert.</b>
+    <b>This is one of the projects developed in class at the NLW expert event.</b>
 </p>
 
 <p align="center">
-     <a href="https://">📱 Visit this Project</a>
+     <a href="https://" target="_blank">📱 Visit this Project</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
