@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">NLW Orders 💻</h1>
+<h1 align="center" style="font-weight: bold;">App Delivery 💻</h1>
 
 <p align="center">
  <a href="#tech">Technologies</a> • 
@@ -22,7 +22,7 @@
     
 </p>
 
-<h2 id="technologies">💻 Technologies</h2>
+<h2 id="tech">💻 Technologies</h2>
 
 - React Native
 - Expo
