@@ -66,7 +66,7 @@ npx expo start
       <a href="#">
         <img src="https://avatars.githubusercontent.com/maykonwr" width="100px;" alt="Maykon Profile Picture"/><br>
         <sub>
-          <b>Suami Rocha</b>
+          <b>Maykon</b>
         </sub>
       </a>
     </td>
