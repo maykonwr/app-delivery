@@ -30,7 +30,7 @@
 
 <h2 id="started">🚀 Getting started</h2>
 
-For help getting started with Flutter, view our online [documentation](https://reactnative.dev/).
+For help getting started with React Native, view our online [documentation](https://reactnative.dev/).
 
 <h3>Prerequisites</h3>
 
