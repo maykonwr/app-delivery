@@ -10,12 +10,11 @@ import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view
 import { Button } from "@/components/button";
 import { Feather } from "@expo/vector-icons";
 import { LinkButton } from "@/components/link-buttom";
-import { useNavigation } from "expo-router";
+import { router } from "expo-router";
 
 export default function Cart() {
-    const [address, setAddress] = useState("")
     const cartStore = useCartStore() 
-    const navigation = useNavigation()
+    const [address, setAddress] = useState("")
 
     const PHONE_NUMBER = ""
     const total = formatCurrency(cartStore?.products.reduce((total, product) => total + product.price * product.quantity, 0 ))
@@ -50,9 +49,8 @@ export default function Cart() {
         \n *Valor total: ${total}*
         `
         Linking.openURL(`http://api.whatsapp.com/send?phone=${PHONE_NUMBER}&text=${message}`)
-        Alert.alert("Pedido realizado", "Envie a confirmação no whatsapp")
         cartStore.clear()
-        navigation.goBack()
+        router.push("/checkout")
 
     }
 
